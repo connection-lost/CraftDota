@@ -1,0 +1,19 @@
+name: CraftDota
+main: me.crafter.mc.craftdota.CraftDota
+version: 1.0
+author: connection_lost
+description: >
+             CraftDota
+commands:
+   dotd:
+      permission: dotd.admin
+      usage: |
+         /dotd <...>
+   credits:
+      permission: dotd.player
+      aliases: [about, author, credit]
+      usage: |
+         /credits
+permissions:
+   dotd.player:
+      default: true
